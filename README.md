@@ -5,6 +5,7 @@
 - keine störenden Einblendungen auf der Leinwand
 - keine ruckelnden Bilder durch falsche Einstellungen
 - eine leistungsstarke Bedienoberfläche
+- Fernsteuerung über LAN oder WLAN
 - volle Kontrolle über Bild und Ton
 - Vorschau und Liveansicht für den Vorführer
 - Unterstützung aller gängigen Video- und Audioformate und Bildraten
