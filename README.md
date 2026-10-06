@@ -10,3 +10,4 @@
 - Unterstützung aller gängigen Video- und Audioformate und Bildraten
 - 4K, UHD, HDR
 - Hardwaredecodierung
+- Integrierte DMX-Lichtsteuerung
