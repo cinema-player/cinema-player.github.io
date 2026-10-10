@@ -12,3 +12,5 @@
 - 4K, UHD, HDR
 - Hardwaredecodierung
 - Integrierte DMX-Lichtsteuerung
+
+[Bedienungsanleitung][manual/index.html]
