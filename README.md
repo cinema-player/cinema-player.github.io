@@ -13,4 +13,4 @@
 - Hardwaredecodierung
 - Integrierte DMX-Lichtsteuerung
 
-[Bedienungsanleitung][manual/index.html]
+[Bedienungsanleitung](manual/index.html)
