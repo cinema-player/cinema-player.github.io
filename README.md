@@ -14,3 +14,5 @@
 - Integrierte DMX-Lichtsteuerung
 
 [Bedienungsanleitung](manual/index.html)
+
+Videos auf [YouTube](https://youtube.com/playlist?list=PLWRDCx6BQ3lU&si=-QfBtEigMtGV3NSc)
