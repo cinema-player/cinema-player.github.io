@@ -13,7 +13,7 @@
     <div class="title">
       <span data-lang="en">Operator manual</span>
       <span data-lang="de">Bedienungsanleitung</span>
-      <span class="ver">0.3.1-Beta</span>
+      <span class="ver">0.3.5</span>
     </div>
     <div class="page-tools">
       <div class="lang-switch">
@@ -109,8 +109,8 @@
     <p data-lang="de">So lässt sich ein Programmablauf im Vorhinein zusammenstellen, die Filme bearbeiten und die fertige Zusammenstellung bei der Veranstaltung einfach laden.</p>
     <figure>
       <img src="images/guide/playlist-tools.png" alt="Playlist toolbar">
-      <figcaption data-lang="en">Playlist name, import, new, load, and save. House lights sit under the status bar.</figcaption>
-      <figcaption data-lang="de">Playlist-Name, Import, Neu, Laden und Speichern. Das Saallicht sitzt unter der Statuszeile.</figcaption>
+      <figcaption data-lang="en">Playlist name, import, load, and save. House lights sit under the status bar.</figcaption>
+      <figcaption data-lang="de">Playlist-Name, Import, Laden und Speichern. Das Saallicht sitzt unter der Statuszeile.</figcaption>
     </figure>
     <div class="icon-row">
       <img src="images/guide/icon-import.png" alt="">
@@ -118,20 +118,17 @@
       <p data-lang="de">Filme und Bilder importieren</p>
     </div>
     <div class="icon-row">
-      <img src="images/guide/icon-new.png" alt="">
-      <p data-lang="en">Clear everything and start an empty playlist</p>
-      <p data-lang="de">Alles löschen und eine leere Playlist anlegen</p>
-    </div>
-    <div class="icon-row">
       <img src="images/guide/icon-load.png" alt="">
-      <p data-lang="en">Load a playlist</p>
-      <p data-lang="de">Eine Playlist laden</p>
+      <p data-lang="en">Open the list of playlists in the import path</p>
+      <p data-lang="de">Die Liste der Playlists im Importverzeichnis öffnen</p>
     </div>
     <div class="icon-row">
       <img src="images/guide/icon-save.png" alt="">
-      <p data-lang="en">Save the playlist</p>
-      <p data-lang="de">Die Playlist speichern</p>
+      <p data-lang="en">Save the playlist into its folder in the import path</p>
+      <p data-lang="de">Die Playlist in ihren Ordner im Importverzeichnis speichern</p>
     </div>
+    <p data-lang="en">While the program is running, import, load, and save are hidden. The arrow to the right of the playlist name shows those buttons again and hides them once more. Autoplay, loop, and the other settings in the preview stay visible.</p>
+    <p data-lang="de">Solange das Programm läuft, sind Import, Laden und Speichern ausgeblendet. Der Pfeil rechts neben dem Playlistnamen blendet diese Schaltflächen wieder ein und auch wieder aus. Autoplay, Loop und die übrigen Einstellungen in der Vorschau bleiben sichtbar.</p>
     <p data-lang="en">On import, the <strong>media directories</strong> list opens first, for quick access to the folders you use often.</p>
     <p data-lang="de">Beim Import von Medien öffnet sich die Auswahl der <strong>Medienverzeichnisse</strong>, die einen schnellen Zugang zu den wichtigen Speicherorten ermöglichen.</p>
     <p data-lang="en">You can import single files or whole folders.</p>
@@ -144,6 +141,8 @@
       <li data-lang="en"><strong>Load last playlist</strong>: the last playlist is loaded automatically when Cinema Player starts.</li>
       <li data-lang="de"><strong>Letzte Playlist laden</strong>: Die letzte Playlist wird beim Start des Cinema Players automatisch geladen.</li>
     </ul>
+    <p data-lang="en">Every playlist is stored in the import path, in a folder of the same name. If no import path is set, Cinema Player asks for one first. When no playlist is open, for example right after start, a window lists the playlists in that folder together with the creation date, the number of media files, and the disk space. <strong>Open</strong> loads one. <strong>New playlist</strong> creates the folder and saves an empty playlist there. <strong>Import</strong> and <strong>Export</strong> ask whether the media files are copied along with the playlist. <strong>Delete media files</strong> removes the files and keeps the playlist. <strong>Delete folder</strong> removes the folder, including the playlist.</p>
+    <p data-lang="de">Jede Playlist liegt im Importverzeichnis, in einem Unterordner mit demselben Namen. Ist noch kein Importverzeichnis festgelegt, wird es vorher in einem Dialog gewählt. Ist keine Playlist geöffnet, zum Beispiel direkt nach dem Start, zeigt ein Fenster die Playlists in diesem Verzeichnis zusammen mit dem Erstellungsdatum, der Anzahl der Mediendateien und dem Speicherbedarf. <strong>Öffnen</strong> lädt eine davon. <strong>Neue Playlist</strong> legt den Unterordner an und speichert die Playlist dort. <strong>Importieren</strong> und <strong>Exportieren</strong> fragen, ob die Mediendateien mit der Playlist kopiert werden. <strong>Mediendateien löschen</strong> entfernt die Dateien und behält die Playlist. <strong>Verzeichnis löschen</strong> entfernt den Ordner einschließlich der Playlist.</p>
 
     <h3>
       <span data-lang="en">Playlist entries</span>
@@ -238,6 +237,8 @@
     </h3>
     <p data-lang="en">If the file is missing, the row turns red and the program skips it. <em>Relink</em> sets a new path.</p>
     <p data-lang="de">Ist die Datei nicht auffindbar, wird der Playlist-Eintrag rot dargestellt und im Programmablauf übersprungen. Mit <em>Neu verknüpfen</em> kann der Pfad auf die Datei neu gesetzt werden.</p>
+    <p data-lang="en"><em>Copy to playlist folder</em> copies the file into the playlist's folder in the import path and points the entry at that copy. A progress window shows the copy and <strong>Cancel</strong> stops it, leaving the entry on the original file. A file that is already in the folder is left as it is.</p>
+    <p data-lang="de"><em>In den Playlistordner kopieren</em> kopiert die Datei in den Unterordner der Playlist im Importverzeichnis und setzt den Eintrag auf diese Kopie. Ein Fortschrittsfenster zeigt den Kopiervorgang, und <strong>Abbrechen</strong> stoppt ihn. Der Eintrag bleibt dann bei der ursprünglichen Datei. Liegt die Datei schon in diesem Ordner, bleibt sie unverändert.</p>
     <p data-lang="en">To re-check every path and reload metadata, use <em>Settings → Playlist → Refresh</em>.</p>
     <p data-lang="de">Um alle Pfade zu prüfen und die Metadaten neu zu laden, <em>Einstellungen → Playlist → Aktualisieren</em> wählen.</p>
 
@@ -393,6 +394,10 @@
       <li data-lang="de"><strong>gespielt</strong> — der Status <em>gespielt</em> lässt sich umstellen; gespielte Filme werden grau dargestellt</li>
       <li data-lang="en"><strong>Dimmer</strong> — house-light level at clip start (<strong>Medium</strong>, <strong>Bright</strong>). <strong>Dark</strong> is the default.</li>
       <li data-lang="de"><strong>Dimmer</strong> — die Helligkeit des Lichts beim Start des Films (<strong>Mittel</strong>, <strong>Hell</strong>). <strong>Dunkel</strong> ist der Standardwert.</li>
+      <li data-lang="en"><strong>Dim</strong> — a still fades in when it starts and fades out when it stops or its display time ends</li>
+      <li data-lang="de"><strong>Dimmen</strong> — ein Standbild blendet beim Start ein und beim Stopp oder am Ende der Anzeigezeit aus</li>
+      <li data-lang="en"><strong>Dim time</strong> — seconds for that fade, one value for every still</li>
+      <li data-lang="de"><strong>Dimmzeit</strong> — Sekunden für dieses Ein- und Ausblenden, ein Wert für alle Standbilder</li>
     </ul>
     <figure>
       <img src="images/guide/preview-video.png" alt="Preview picture and VU meter">
@@ -401,8 +406,8 @@
     </figure>
     <figure>
       <img src="images/guide/preview-controls.png" alt="Preview progress, envelope and transport">
-      <figcaption data-lang="en">The progress bar shows the current time plus In and Out. In Play or Pause the playhead can be dragged. After loudness analysis a peak envelope sits under the bar; the white line is the current time.</figcaption>
-      <figcaption data-lang="de">Der Fortschrittsbalken zeigt die momentane Spielposition sowie gesetzte In- und Out-Punkte. Die Spielposition kann im Play- oder Pause-Modus durch Ziehen im Fortschrittsbalken verändert werden. Nach der Audioanalyse sitzt eine Peak-Hüllkurve unter dem Balken; die weiße Linie ist die aktuelle Zeit.</figcaption>
+      <figcaption data-lang="en">The progress bar shows the current time plus In and Out. The playhead can be dragged on the bar or on the audio envelope. After loudness analysis a peak envelope sits under the bar; the white line is the current time.</figcaption>
+      <figcaption data-lang="de">Der Fortschrittsbalken zeigt die momentane Spielposition sowie gesetzte In- und Out-Punkte. Die Spielposition lässt sich im Balken und in der Audio-Hüllkurve ziehen. Nach der Audioanalyse sitzt eine Peak-Hüllkurve unter dem Balken; die weiße Linie ist die aktuelle Zeit.</figcaption>
     </figure>
 
     <h3>
@@ -415,6 +420,8 @@
     <p data-lang="de">Wurde die Audioanalyse aufgerufen, ist über der Aussteuerungsanzeige der Lautheitswert (LUFS) und unter dem Fortschrittsbalken eine Audio-Hüllkurve sichtbar.</p>
     <p data-lang="en">Monitor-speaker volume can be set independently of the auditorium. <em>Save volume</em> writes the value into the playlist and uses it in the program.</p>
     <p data-lang="de">Die Lautstärke der Tonwiedergabe am Monitor-Lautsprecher kann unabhängig von der Lautstärke im Kinosaal eingestellt werden. Mit <em>Lautstärke speichern</em> wird der Wert in der Playlist gespeichert und im Programm übernommen.</p>
+    <p data-lang="en"><em>Mute</em>, next to the preview volume slider, silences the monitor speaker. The slider and the saved volume stay as they are. Press the button again to hear the same level.</p>
+    <p data-lang="de"><em>Stumm</em> neben dem Lautstärkeregler der Vorschau schaltet den Monitor-Lautsprecher aus. Der Regler und die gespeicherte Lautstärke bleiben unverändert. Ein weiterer Druck schaltet denselben Pegel wieder ein.</p>
     <div class="note warn">
       <img src="images/guide/icon-warning.png" alt="">
       <div>
@@ -469,6 +476,8 @@
     </div>
     <p data-lang="en">There are buttons for <strong>STOP</strong>, <strong>PAUSE</strong>, <strong>STILL</strong> and <strong>RESUME</strong>. <strong>Remaining</strong> and <strong>End</strong> are the large clocks. Lights, transport, and volume stay at the bottom while the playlist scrolls. The token field hides after the phone has connected. Transport needs the same confirmation as on the Cinema Player window.</p>
     <p data-lang="de">Es gibt Tasten für die Transportfunktionen <strong>STOP</strong>, <strong>PAUSE</strong>, <strong>STILL</strong> und <strong>WEITER</strong>. <strong>Rest</strong> und <strong>Ende</strong> sind die großen Uhren. Licht, Transport und Lautstärke bleiben unten, während die Playlist scrollt. Das Token-Feld verschwindet, sobald das Telefon verbunden ist. Die Transporttasten erfordern die gleiche Bestätigung wie auf der Oberfläche des Cinema Players.</p>
+    <p data-lang="en">Volume setup is started from the booth Program menu, not from the phone. Once that mode is on, the status is purple, the progress bar and audio envelope can be dragged, and <strong>Save volume</strong> sits under the volume slider. Pause and Still run without confirmation. Stop ends the clip on air; it does not leave the mode.</p>
+    <p data-lang="de">Lautstärke einstellen wird im Program-Menü des Kontrollfensters gestartet, nicht am Telefon. Ist der Modus aktiv, ist der Status lila, Fortschrittsbalken und Audio-Hüllkurve lassen sich verschieben, und <strong>Lautstärke speichern</strong> sitzt unter dem Lautstärkeregler. Pause und Still laufen ohne Bestätigung. Stop beendet den laufenden Clip, verlässt den Modus aber nicht.</p>
     <figure class="mid">
       <img src="images/guide/phone-playlist.png" alt="Phone remote playlist">
       <figcaption data-lang="en">The playlist is below. Tap a row to set the program pointer. The action must be confirmed and is locked during playback.</figcaption>
@@ -561,15 +570,14 @@
       <figcaption data-lang="en">Saved folders for import.</figcaption>
       <figcaption data-lang="de">Gespeicherte Ordner für den Import.</figcaption>
     </figure>
-    <p data-lang="en">By default the media files are only linked in the playlist. The data stays on the source drive and is played from there.</p>
-    <p data-lang="de">Im Normalfall werden die Mediendateien nur in der Timeline verlinkt. Die Daten bleiben am Transportmedium und werden von dort abgespielt.</p>
-    <p data-lang="en">If <em>Copy files</em> is ticked at the bottom, files are not only linked but copied into the folder chosen to the right of the tick.</p>
-    <p data-lang="de">Wird am unteren Rand ein Haken bei <em>Datei kopieren</em> gesetzt, werden die Dateien nicht nur verlinkt, sondern in das Verzeichnis kopiert, das rechts vom Haken gewählt werden kann.</p>
-    <figure>
-      <img src="images/guide/copy-files.png" alt="Copy files during import">
-      <figcaption data-lang="en">Copy imported files into a chosen folder so the original drive can be removed.</figcaption>
-      <figcaption data-lang="de">Importierte Dateien in einen gewählten Ordner kopieren, damit das Originalmedium entfernt werden kann.</figcaption>
-    </figure>
+    <p data-lang="en">The list in Settings starts with the <strong>import path</strong>. That row is marked and stays at the top. <strong>Set import path</strong> chooses the folder. It is required when files are copied.</p>
+    <p data-lang="de">Die Liste in den Einstellungen beginnt mit dem <strong>Importpfad</strong>. Diese Zeile ist gekennzeichnet und bleibt ganz oben. <strong>Importpfad festlegen</strong> wählt den Ordner. Er ist nötig, wenn Dateien kopiert werden sollen.</p>
+    <p data-lang="en">Media files are linked in the playlist unless a copy is requested. Linked files stay on the source drive and are played from there. Choosing an internal folder never copies files. Linking a removable drive does nothing else: no folder is created and the playlist is not saved.</p>
+    <p data-lang="de">Mediendateien werden in der Playlist verlinkt, solange nicht ausdrücklich kopiert wird. Verlinkte Dateien bleiben auf dem Quelldatenträger und werden von dort abgespielt. Ein interner Ordner wird nie kopiert. Eine reine Verlinkung eines Wechseldatenträgers ändert sonst nichts: es entsteht kein Ordner und die Playlist wird nicht gespeichert.</p>
+    <p data-lang="en">When a removable drive is chosen in the import list, a dialog asks whether to <strong>link</strong> or <strong>copy</strong>. If no import path is set, a warning appears and copying is not possible. Linking is still allowed.</p>
+    <p data-lang="de">Wird in der Importliste ein Wechseldatenträger gewählt, fragt ein Dialog, ob die Daten <strong>verlinkt</strong> oder <strong>kopiert</strong> werden sollen. Ist noch kein Importpfad eingetragen, erscheint eine Warnung und Kopieren ist nicht möglich. Verlinken bleibt erlaubt.</p>
+    <p data-lang="en">Copying needs a real playlist name. If the field still shows <em>untitled.pls</em> (or <em>unbekannt.pls</em>), another dialog asks for a name. Cinema Player creates a subdirectory of the import path with that name, saves the playlist there, and copies the files into the same directory. Files that are not on a removable drive stay linked. <strong>Cancel</strong> stops the copy, removes the file that was in progress, and leaves files that were already copied.</p>
+    <p data-lang="de">Zum Kopieren muss ein konkreter Playlistname gewählt sein. Steht noch <em>unbekannt.pls</em> im Feld, fordert ein weiterer Dialog einen Namen an. Cinema Player legt im Importverzeichnis einen Unterordner mit diesem Namen an, speichert die Playlist dort und kopiert die Dateien in denselben Ordner. Dateien, die nicht auf einem Wechseldatenträger liegen, bleiben verlinkt. <strong>Abbrechen</strong> stoppt den Kopiervorgang, entfernt die angefangene Datei und behält Dateien, die schon kopiert sind.</p>
     <p data-lang="en">The original medium can then be removed and the program uses the copies. That simplifies shows where films arrive on different drives, and it avoids playback problems from slow USB sticks.</p>
     <p data-lang="de">Damit kann das originale Speichermedium entfernt werden und das Programm nutzt die Kopien. So vereinfacht sich der Ablauf, wenn die Filme auf unterschiedlichen Medien geliefert werden. Damit lassen sich auch Abspielprobleme, zum Beispiel durch langsame USB-Sticks, vermeiden.</p>
 
@@ -580,8 +588,8 @@
     <figure class="snip">
       <img src="images/guide/menu-program.png" alt="Program submenu">
     </figure>
-    <p data-lang="en"><strong>Idle media</strong> is the first item. Under it, <strong>Use default Idle Media</strong> always uses the file in the <code>idle</code> folder. <strong>Settings warning</strong> is the last item, below a line.</p>
-    <p data-lang="de"><strong>Pausenmedium</strong> steht an erster Stelle. Darunter schaltet <strong>Standard-Pausenmedium verwenden</strong> die Datei aus dem Verzeichnis <code>idle</code> ein. <strong>Einstellungswarnung</strong> steht ganz unten, unter einer Linie.</p>
+    <p data-lang="en"><strong>Idle media</strong> is the first item. Under it, <strong>Use default Idle Media</strong> always uses the file in the <code>idle</code> folder. <strong>Settings warning</strong> sits below a line. <strong>Set volume</strong> is last and is disabled only while a clip is rolling. It starts the program if needed and lights the status purple, as in calibration. The current playlist stays. Clips run with the normal transport, and the program progress bar and audio envelope can be scrubbed at any time, not only in Still. Stop, Pause and Still do not ask for confirmation. <strong>Save volume</strong> appears next to the program volume slider and writes that level into the playlist entry, the same way as in the preview. The phone can scrub on the bar or envelope and save the volume. Stop on the phone ends the clip on air and does not leave the mode.</p>
+    <p data-lang="de"><strong>Pausenmedium</strong> steht an erster Stelle. Darunter schaltet <strong>Standard-Pausenmedium verwenden</strong> die Datei aus dem Verzeichnis <code>idle</code> ein. <strong>Einstellungswarnung</strong> steht unter einer Linie. <strong>Lautstärke einstellen</strong> steht ganz unten und ist nur gesperrt, solange ein Film läuft. Der Punkt startet das Programm, falls nötig, und leuchtet den Status lila aus, wie bei der Kalibrierung. Die aktuelle Playlist bleibt. Die Filme laufen mit der normalen Ablaufsteuerung, und Fortschrittsbalken und Audio-Hüllkurve im Programm lassen sich jederzeit verschieben, nicht nur im Still. Stop, Pause und Still fragen nicht nach einer Bestätigung. Neben dem Lautstärkeregler im Programm erscheint <strong>Lautstärke speichern</strong> und schreibt den Pegel in den Playlist-Eintrag, genau wie in der Vorschau. Über die Fernsteuerung lassen sich Balken und Hüllkurve verschieben und die Lautstärke speichern. Stop auf dem Telefon beendet den laufenden Clip und verlässt den Modus nicht.</p>
 
     <h3>
       <span data-lang="en">Playlist</span>
@@ -676,14 +684,14 @@
     </h3>
     <p data-lang="en">PC with Linux (X11, Wayland).</p>
     <p data-lang="de">PC mit Linux (X11, Wayland).</p>
-    <p data-lang="en">Graphics card: AMD with VAAPI (amdgpu).</p>
-    <p data-lang="de">Grafikkarte: AMD mit VAAPI (amdgpu).</p>
+    <p data-lang="en">Graphics card: AMD with VAAPI (amdgpu) or NVIDIA with NVDEC. The beamer status shows which GPU drives the projector.</p>
+    <p data-lang="de">Grafikkarte: AMD mit VAAPI (amdgpu) oder NVIDIA mit NVDEC. Der Beamerstatus zeigt, welche GPU den Beamer speist.</p>
     <h3>
       <span data-lang="en">Software</span>
       <span data-lang="de">Software</span>
     </h3>
-    <p data-lang="en">The Cinema Player package includes an installer that sets up the important libraries. Hardware decoding uses VAAPI on the open amdgpu driver.</p>
-    <p data-lang="de">Das Cinema-Player-Softwarepaket bringt einen Installer mit, der die wichtigen Bibliotheken installiert. Die Hardware-Dekodierung läuft über VAAPI mit dem offenen amdgpu-Treiber.</p>
+    <p data-lang="en">The Cinema Player package includes an installer that sets up the important libraries. Hardware decoding uses VAAPI on the open amdgpu driver, or NVDEC on the NVIDIA driver.</p>
+    <p data-lang="de">Das Cinema-Player-Softwarepaket bringt einen Installer mit, der die wichtigen Bibliotheken installiert. Die Hardware-Dekodierung läuft über VAAPI mit dem offenen amdgpu-Treiber oder über NVDEC mit dem NVIDIA-Treiber.</p>
   </main>
 
   <script>
