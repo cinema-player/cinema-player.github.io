@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cinema Player — Der Mediaplayer für ein pures Kinoerlebnis</title>
+  <meta name="description" content="Cinema Player spielt Filme auf die Leinwand und lässt die Steuerung in der Kabine. Playlist, Vorschau, ruhige Bildraten, Saallicht und Fernbedienung.">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#anfang">
+      <img src="assets/logo.png" alt="Cinema Player">
+    </a>
+    <a class="manual" href="https://cinema-player.github.io/manual/index.html">Bedienungsanleitung</a>
+  </header>
+
+  <main>
+    <section class="hero" id="anfang">
+      <h1>Der Mediaplayer für ein pures Kinoerlebnis</h1>
+    </section>
+
+    <article class="chapter" id="leinwand">
+      <div class="runway">
+        <div class="stage">
+          <div class="frame">
+            <div class="intro">
+              <p>Die Leinwand zeigt nur den Film. Die Steuerung bleibt auf dem Monitor in der Kabine.</p>
+            </div>
+            <figure class="photo">
+              <img src="assets/leinwand.png" alt="Bedienoberfläche mit Playlist links, Beamerstatus und Vorschau rechts. Der Programmstatus steht auf Aus.">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="detail">
+        <h2>Reine Leinwand</h2>
+        <p>Cinema Player trennt Bild und Bedienung über zwei Ausgänge der Grafikkarte. Auf dem Beamer liegt das Programm, ohne Menüs und ohne Einblendungen. Läuft gerade nichts, bleibt die Leinwand schwarz. Status, Playlist und Vorschau sieht der Vorführer auf dem eigenen Monitor.</p>
+      </div>
+    </article>
+
+    <article class="chapter" id="bild">
+      <div class="runway">
+        <div class="stage">
+          <div class="frame">
+            <div class="intro">
+              <p>Bildrate und Auflösung stehen, bevor der Film beginnt.</p>
+            </div>
+            <figure class="photo">
+              <img src="assets/beamer.png" alt="Beamerstatus mit Seitenverhältnis 16:9, Frequenzen, Auflösungen und grünem OK.">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="detail">
+        <h2>Ruhige Wiedergabe</h2>
+        <p>Der Beamerstatus zeigt, was der Projektor meldet, und hält es gegen den Clip. 24, 25 und 30 Bilder pro Sekunde laufen mit doppelter Wiederholrate, damit jede Bewegung ruhig bleibt. Grünes OK bedeutet, ein passender Modus ist da. Eine Abweichung ist rot markiert, noch bevor das Bild in den Saal geht.</p>
+        <p>Sobald der Programmzeiger auf dem Clip steht, ist das HDMI-Handshake abgeschlossen. Der Start bringt Bild und Ton ohne Wartezeit.</p>
+      </div>
+    </article>
+
+    <article class="chapter" id="playlist">
+      <div class="runway">
+        <div class="stage">
+          <div class="frame">
+            <div class="intro">
+              <p>Der Ablauf steht in der Playlist, bevor das Licht ausgeht.</p>
+            </div>
+            <figure class="photo">
+              <img src="assets/playlist.png" alt="Playlist mit Dateinamen, Laufzeiten, Bildraten und Lautheit.">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="detail">
+        <h2>Playlist</h2>
+        <p>Filme, Bilder und ganze Ordner liegen in der Reihenfolge der Vorstellung. Jede Zeile trägt Laufzeit, Auflösung, Bildrate und Ton. Eine Audioanalyse stellt die Lautstärke fest und berechnet eine Hüllkurve, was der Beamer nicht sauber zeigen kann, ist in der Zeile markiert. Die Playlist wird mit diesen Angaben gespeichert und lässt sich für die nächste Vorstellung wieder laden.</p>
+      </div>
+    </article>
+
+    <article class="chapter" id="programm">
+      <div class="runway">
+        <div class="stage">
+          <div class="frame">
+            <div class="intro">
+              <p>Aus, Programm, Wiedergabe. Der Status ist immer eindeutig.</p>
+            </div>
+            <figure class="photo">
+              <img src="assets/programm.png" alt="Kabinenansicht während der Wiedergabe: grüner Status, Uhren, Playlist und Vorschau.">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="detail">
+        <h2>Programm in der Kabine</h2>
+        <p>Start legt das Programm bereit. Die Leinwand bleibt schwarz oder zeigt das Ruhebild, der Film läuft noch nicht. Weiter startet den aktuellen Clip. Pause, Standbild und Stopp fragen nach, bevor sich im Saal etwas ändert. Restzeit und Enduhr stehen groß, Gesamtzeit und gelaufene Zeit daneben.</p>
+      </div>
+    </article>
+
+    <article class="chapter" id="vorschau">
+      <div class="runway">
+        <div class="stage">
+          <div class="frame">
+            <div class="intro">
+              <p>Live und Vorschau sind getrennt. Der Saal hört die Vorschau nicht.</p>
+            </div>
+            <figure class="photo">
+              <img src="assets/vorschau.png" alt="Vorschau mit Testbild, Tonhüllkurve und Lautstärke.">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="detail">
+        <h2>Vorschau</h2>
+        <p>Der nächste Clip lässt sich in der Kabine ansehen, mit eigenem Ton am Kontrollmonitor. In- und Out-Punkt setzen den Ausschnitt für die Leinwand. Die Lautstärke bleibt am Eintrag gespeichert. Untertitel bleiben aus, bis eine Spur gewählt ist. Nach der Lautheitsanalyse zeigt der Player den LUFS-Wert und die Hüllkurve des Tons.</p>
+      </div>
+    </article>
+
+    <article class="chapter" id="saal">
+      <div class="runway">
+        <div class="stage">
+          <div class="frame">
+            <div class="intro">
+              <p>Saallicht und Vorstellung lassen sich vom Handy aus führen.</p>
+            </div>
+            <figure class="photo photo-phone">
+              <img src="assets/saal.png" alt="Smartphone mit Programmstatus, Tasten Dunkel, Mittel und Hell, Lichtsteuerung und Transport.">
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="detail">
+        <h2>Saal und Handy</h2>
+        <p>Die Lichtsteuerung sendet DMX, über ein USB-Interface oder per Art-Net im Netz. Dunkel, Mittel und Hell sind feste Stimmungen mit weichem Übergang. Ein Clip kann beim Start seine Helligkeit setzen. Am Ende kommt das Saallicht wieder hoch, solange nicht der nächste Titel von selbst folgt.</p>
+        <p>Dieselbe Steuerung liegt im lokalen Netz auf dem Smartphone: Status, Playlist, Lautstärke und Licht, geschützt durch ein Kennwort.</p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="foot">
+    <a href="https://cinema-player.github.io/manual/index.html">Bedienungsanleitung</a>
+    <a href="https://www.youtube.com/playlist?list=PLWRDCx6BQ3lU">Videos auf YouTube</a>
+  </footer>
+
+  <script src="js/scroll.js"></script>
+</body>
+</html>
