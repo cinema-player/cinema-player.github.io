@@ -16,6 +16,8 @@
 
 :root {
   --bg: #101114;
+  --card: #1b1e27;
+  --card-line: #4a5364;
   --text: #ececec;
   --muted: #c5c8ce;
   --accent: #4d9be6;
@@ -104,7 +106,14 @@ a { color: var(--accent); }
   text-shadow: 0 2px 16px rgba(0, 0, 0, 0.55);
 }
 
-.chapter { --reveal: 1; }
+.chapter {
+  --reveal: 1;
+  margin: 3rem clamp(0.75rem, 2vw, 2rem);
+  background: var(--card);
+  border: 1px solid var(--card-line);
+  border-radius: 1.25rem;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+}
 
 .runway { height: auto; }
 
@@ -170,7 +179,7 @@ a { color: var(--accent); }
 .detail {
   max-width: 40rem;
   margin: 0 auto;
-  padding: 4vh 1.5rem 16vh;
+  padding: 1.25rem 1.75rem 2.5rem;
 }
 
 .detail h2 {
@@ -246,8 +255,10 @@ a { color: var(--accent); }
     padding-inline: 1rem;
   }
 
+  .chapter { margin-inline: 0.75rem; }
+
   .detail {
-    padding-bottom: 12vh;
+    padding: 1rem 1.15rem 1.75rem;
   }
 
   .detail p { font-size: 1.05rem; }
