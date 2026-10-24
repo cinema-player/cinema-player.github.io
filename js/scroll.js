@@ -6,7 +6,7 @@
   function measure() {
     chapters.forEach(function (chapter) {
       var intro = chapter.querySelector(".intro");
-      var text = intro.querySelector("p");
+      var text = intro.querySelector("h2");
       intro.style.height = "auto";
       var height = Math.ceil(text.getBoundingClientRect().height);
       intro.style.height = "";
@@ -40,6 +40,7 @@
     if (!reduce.matches) {
       var view = window.innerHeight;
       chapters.forEach(function (chapter) {
+        if (chapter.classList.contains("text-only")) return;
         chapter.querySelector(".runway").style.height = Math.round(view * 1.85) + "px";
       });
     }
