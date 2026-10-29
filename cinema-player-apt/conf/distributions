@@ -5,4 +5,4 @@ Codename: stable
 Architectures: amd64
 Components: main
 Description: Cinema Player APT Repository
-SignWith: FINGERPRINT
+SignWith: 8BD20EE065AA563B500A427523839CEC1D80BB05

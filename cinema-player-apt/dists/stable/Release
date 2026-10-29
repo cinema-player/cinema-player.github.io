@@ -1,0 +1,20 @@
+Origin: Cinema Player
+Label: Cinema Player
+Suite: stable
+Codename: stable
+Date: Thu, 29 Oct 2026 12:38:16 UTC
+Architectures: amd64
+Components: main
+Description: Cinema Player APT Repository
+MD5Sum:
+ 5bfa1013189628e51386e6a266cfd0d6 1003 main/binary-amd64/Packages
+ 177e833cdf1d7c6e8772d0768672defd 637 main/binary-amd64/Packages.gz
+ bd07ec0fbc4d4034d86b2d4e91ec31ab 137 main/binary-amd64/Release
+SHA1:
+ a73cbfcdf309db738eb3875b13ddfbd0f42b0045 1003 main/binary-amd64/Packages
+ 461af2136fa7c904b6d372d86ea1059d792bbe1a 637 main/binary-amd64/Packages.gz
+ 45a980474bbc955c9e986ac2bf47f727b8399bc3 137 main/binary-amd64/Release
+SHA256:
+ e3d838ade9995200d6f5af5d2b1ed0078357c152b5c8a8e66044a284be34e00d 1003 main/binary-amd64/Packages
+ 8d0d8d359d3d153708d98462c19e2975228374bdaf7eb9fe1bf46ac4410604ce 637 main/binary-amd64/Packages.gz
+ 45fb4a1b377084180faac82d57eaa2c239757d6376713007e265de546b089d14 137 main/binary-amd64/Release
