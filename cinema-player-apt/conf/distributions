@@ -1,0 +1,8 @@
+Origin: Cinema Player
+Label: Cinema Player
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: Cinema Player APT Repository
+SignWith: FINGERPRINT
