@@ -156,6 +156,28 @@
       <div class="detail">
         <h2>Ein Projekt für Alle</h2>
         <p>Der Cinema-Player ist ein Open-Source Projekt für alle Kinoliebhaber, die ihre eigenen Filme auf der großen Leinwand genießen wollen. Die Software ist von einem Autor aus dem Independent-Film für Independent-Filmer entwickelt.</p>
+        <h2>Installation über das Repository</h2>
+        <p>Die Installation des Debian Pakets über das Repository ist die einfachste Möglichkeit, den Cinema-Player auf dem eigenen Rechner zu installieren. Die Installation erfolgt über die Kommandozeile und erfordert root-Rechte.</p>
+        <p>Das Repository enthält die neuesten Versionen des Cinema-Players und ist stets auf dem neuesten Stand.</p>
+        <p>Die Installation des Schlüssels und der APT-Quelle muss nur einmalig durchgeführt werden.</p>
+        <p>
+          <h3>Den öffentlichen Schlüssel herunterladen:</h3>
+            <code>curl -fsSL \ https://cinema-player.github.io/cinema-player-apt/cinema-player.gpg \
+            | sudo tee /usr/share/keyrings/cinema-player.gpg > /dev/null</code>
+          <h3>Danach die APT-Quelle registrieren:</h3>
+            <code>echo "deb [arch=amd64 signed-by=/usr/share/keyrings/cinema-player.gpg] \
+            https://cinema-player.github.io/cinema-player-apt/ stable main" \
+            | sudo tee /etc/apt/sources.list.d/cinema-player.list</code>
+          <h3>Installation und spätere Aktualisierung:</h3>
+            <code>
+            sudo apt update
+            sudo apt install cinema-player
+            </code>
+            <p>Nach der Installation wird der Cinema-Player mit dem Update des Systems automatisch aktualisiert.</p>
+            <p>Das Update kann mit folgenden Befehlen durchgeführt werden:</p>
+            <code>sudo apt update<br>sudo apt upgrade</code>
+        </p>
+        <h2>Alle Version können hier heruntergeladen werden</h2>
         <a class="download" href="https://github.com/cinema-player/Cinema-Player/releases" target="_blank">Download</a>
         <ul class="icon-links">
           <li>
