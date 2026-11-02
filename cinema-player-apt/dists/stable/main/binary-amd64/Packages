@@ -1,5 +1,5 @@
 Package: cinema-player
-Version: 0.3.6-2
+Version: 0.3.6-3
 Architecture: all
 Maintainer: Thomas Winkler <thomas.winkler@iggmp.net>
 Installed-Size: 41743
@@ -7,11 +7,11 @@ Depends: python3 (>= 3.12), python3-tk, mpv, ffmpeg, x11-xserver-utils, xfonts-u
 Recommends: mutter-common-bin, kscreen
 Priority: optional
 Section: video
-Filename: pool/main/c/cinema-player/cinema-player_0.3.6-2_all.deb
-Size: 28659876
-SHA256: 17d697bf9acfb4d285f9706ec8f6816f4bcb848c6fe899c4a999056a9bcc091b
-SHA1: ff813b5841d35cbed30168b5e4201948f546c585
-MD5sum: d7177b98de9fa34a320d593aef428034
+Filename: pool/main/c/cinema-player/cinema-player_0.3.6-3_all.deb
+Size: 28659882
+SHA256: e04ac86155920378103b9759e961bb8a5a33a577cc0b5a82eb876f175b22bada
+SHA1: e5f0ad5b19d1289ac36b143cce138b65919a6829
+MD5sum: aa2570296cf572815819495b1ff72540
 Description: cinema video player for a projector booth
  Cinema Player runs two mpv instances: one on the projector and one in the
  booth window. The playlist holds films and stills. The projector picture
