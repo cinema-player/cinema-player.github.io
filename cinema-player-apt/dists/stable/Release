@@ -2,19 +2,19 @@ Origin: Cinema Player
 Label: Cinema Player
 Suite: stable
 Codename: stable
-Date: Mon, 02 Nov 2026 15:50:13 UTC
+Date: Wed, 04 Nov 2026 15:41:25 UTC
 Architectures: amd64
 Components: main
 Description: Cinema Player APT Repository
 MD5Sum:
- aec17f5143d5b33d20a6cecaba5cd648 1002 main/binary-amd64/Packages
- d26a20ceab1dfe3b51720a465032eafe 640 main/binary-amd64/Packages.gz
+ 6367f396c5c14561fc1d92a4c68bcc85 1002 main/binary-amd64/Packages
+ 59548ebf6b7a8a242e0f442fc0c10bd2 637 main/binary-amd64/Packages.gz
  bd07ec0fbc4d4034d86b2d4e91ec31ab 137 main/binary-amd64/Release
 SHA1:
- 8da7de42ab05ede2f022c8053b9af828d9dc8837 1002 main/binary-amd64/Packages
- 93482f44347144608c54c2613a5db23e64b88501 640 main/binary-amd64/Packages.gz
+ 8a3cc1b55d52f66f29b1617ce616c07767900924 1002 main/binary-amd64/Packages
+ ebdb8a50cb1218660b6cd8151ac5d143cff9b739 637 main/binary-amd64/Packages.gz
  45a980474bbc955c9e986ac2bf47f727b8399bc3 137 main/binary-amd64/Release
 SHA256:
- f6418b64555f311c6a1e7ef8784efdbaf920a903a5d45e18417fe54fe6eb2e56 1002 main/binary-amd64/Packages
- 053e5217038f38e40ae690eebfbca92ed24939988306c3c0ef1edc939ad4da22 640 main/binary-amd64/Packages.gz
+ e312e0a7cdbb8466a8fd02830d1b7cfebf787714663c49bfd17387bdb414c56e 1002 main/binary-amd64/Packages
+ 82606e341126654432e6f2110c15d096664872ded3061e6734a737a4cb721d82 637 main/binary-amd64/Packages.gz
  45fb4a1b377084180faac82d57eaa2c239757d6376713007e265de546b089d14 137 main/binary-amd64/Release
